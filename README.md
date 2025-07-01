@@ -10,13 +10,11 @@ A computational toolkit for simulating neuronal/cardiac action potentials and sy
 ### Prerequisites
 
 - **Python 3.10+** (tested on Python 3.10.12)
-- **Gmsh 4.9+** (for finite element mesh generation - [download here](https://gmsh.info/))
 
 ### 1. Clone the Repository
 
 ```bash
-git clone -b devFabianFitzhutNaguno https://github.com/fabioc9675/SignalProcessingPrjs.git
-cd SignalProcessingPrjs/Signal_Processing/22_Fitzhut_Nagumo
+git clone https://github.com/fabioc9675/FitzhutNagumoParams_prj.git
 ```
 
 ### Install Python Dependencies
@@ -36,7 +34,7 @@ The code is written in `Python 3.10`, using libraries such as `NumPy`, `SciPy`, 
 ### Repository Structure
 
 ```
-22_Fitzhut_Nagumo/
+FitzhutNagumoParams_prj/
 ├── FHN_Model/                    # Core simulation code
 │   ├── FHN_model.ipynb           # Interactive FHN parameter exploration
 │   ├── FHN2_model.ipynb          # Interactive FHN parameter exploration
